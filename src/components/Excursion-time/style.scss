@@ -1,0 +1,380 @@
+.main-wrapper-excursion {
+
+    .main-excursion-wrapper {
+        width: 100%;
+        height: 2278px;
+        background-color: #FBFBFB;
+
+        .heading-here {
+
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        .nav {
+            background: url("https://s3-alpha-sig.figma.com/img/dd11/270c/618047585818a6724c61be49890f1b88?Expires=1706486400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Lg8i5Ot5BYdfzBVAVytRWr7az5SV81EuTsRlxrWe3mncbesdTWSfKh1T0ODETbS5EKxklYtNuUncpIhHtw3Sxle5xkfxv~GxLk87yxwGshDDbcyUNMJaYdzqq9xFSf2MAvIxjlYzwlJFcj1xxnyQIhrGMz-S5JwAMK5vdnerpImEhdAUWF-qQYKvZX9AZrgmabhpt3mFi857aC5BE2QmJy4WkTZ8Llj0F4ayvvSU~6P8HVqeYpCt2FwdUsSqpPVeIjTt70iKx0mkn-~hE1flIPW0nB~UF1QZzoP7aOT3RDy9pfZXuDKaK5xulQO6kb~x-HHgMa4XGYNZythEocnZvQ__");
+            background-position: center;
+            background-size: cover;
+            width: 100%;
+            height: 289px;
+            border-radius: 1px;
+
+            h1 {
+                color: #FFF;
+                font-family: sans-serif;
+                font-size: 72px;
+                font-style: normal;
+                font-weight: 700;
+                margin-top: 70px;
+                line-height: normal;
+                margin-left: 120px;
+
+            }
+        }
+
+        .filter-form {
+            width: 1120px;
+            height: 260px;
+            box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.05);
+            margin: 0 auto;
+            font-family: sans-serif;
+            margin-top: 50px;
+            margin-bottom: 50px;
+
+            span {
+                margin-left: 20px;
+                margin-top: 50px;
+
+                &:hover {
+                    color: #0499DD;
+                }
+            }
+
+            .spans {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .div-line {
+                width: 475px;
+                height: 2px;
+                background-color: #D4D4D4;
+                margin-left: 330px;
+                margin-top: 10px;
+            }
+
+            .divs-for {
+                margin-left: 50px;
+                margin-top: 20px;
+                display: flex;
+
+                button {
+                    margin-left: 30px;
+                }
+
+                .div-albaniya {
+                    margin-left: 30px;
+                    width: 235px;
+                    height: 50px;
+                    background-color: #FFF;
+                    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.10);
+                    border-radius: 10px;
+                    display: flex;
+                    justify-content: center;
+                    align-self: center;
+
+                    .left {
+                        margin-top: 15px;
+                        margin-left: -100px;
+                    }
+
+                    .left span {
+                        margin-right: 50px;
+                    }
+
+                    .right {
+                        margin-right: -100px;
+                        margin-top: 5px;
+                    }
+                }
+            }
+        }
+
+        .get-up {
+            margin-top: 40px;
+            display: grid;
+            grid-template-columns: 4fr, 2fr;
+
+            .cheloveks {
+                display: flex;
+
+                .mans {
+                    display: flex;
+                    margin-top: 5px;
+                    width: 50px;
+                    display: flex;
+
+                    div {
+                        width: 105px;
+                        margin-right: 5px;
+                        font-family: sans-serif;
+                        border: 1px solid #EDEDED;
+                        background-color: #FFF;
+                        border-radius: 40px;
+                        color: black;
+                        padding: 15px;
+                    }
+                }
+            }
+
+            h2 {
+                color: black;
+                font-family: sans-serif;
+            }
+        }
+
+        .avtobus {
+            display: flex;
+            margin-left: 50px;
+
+            .left {
+                width: 295px;
+                height: 1018px;
+                box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.05);
+                border-radius: 10px;
+                color: snow;
+                margin-left: 150px;
+
+                padding: 30px;
+
+                * {
+                    margin-bottom: 10px;
+
+                }
+
+                span {
+                    font-family: sans-serif;
+                    color: black;
+                    font-weight: bold;
+                }
+
+                .line {
+                    width: 16px;
+                    height: 2px;
+                    background: #0499DD;
+                    float: right;
+                    margin-top: 10px;
+                }
+
+                .lineplus {
+                    width: 18px;
+                    height: 2px;
+                    background: #0499DD;
+                    float: right;
+                    margin-top: -13px;
+
+                    margin-right: -24px;
+
+                }
+                .lineplus2 {
+                    width: 18px;
+                    height: 2px;
+                    background: #0499DD;
+                    float: right;
+                    margin-top: -13px;
+                    margin-right: -24px;
+                }
+            }
+
+            .div-gold-1 {
+                width: 779px;
+                height: 303px;
+                box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.05);
+                color: white;
+            }
+
+            .div-golds {
+                display: block;
+                margin-left: 30px;
+
+                div {
+                    border-radius: 20px;
+                }
+            }
+
+            .prices {
+                display: flex;
+                margin-top: 10px;
+
+                div {
+
+                    width: 105px;
+                    margin-right: 20px;
+                    font-family: sans-serif;
+                    border: 1px solid #EDEDED;
+                    background-color: #FFF;
+                    border-radius: 40px;
+                    color: black;
+                    padding: 15px;
+                }
+            }
+        }
+
+        .excursion-wrapper {
+            b {
+                display: inline-block;
+                position: relative;
+                font-weight: 500;
+                color: black;
+                margin-left: -45px;
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+
+            .lineplus {
+                width: 18px;
+                height: 2px;
+                background: #0499DD;
+
+                margin-top: -15px;
+                margin-left: 270px;
+
+
+            }
+
+        }
+
+        .div-golds {
+            .div-gold-container {
+                width: 779px;
+                height: 303px;
+                box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.05);
+                color: white;
+                font-family: sans-serif;
+                color: black;
+                padding: 20px;
+
+                .right-abxazia {
+                    width: 100%;
+
+
+                    * {
+                        margin-top: 5px;
+                    }
+
+                    .colso {
+                        color: black;
+                        display: block;
+                        font-size: 18px;
+                        font-weight: bolder;
+                        margin-left: 10px;
+                    }
+                }
+
+                .left-img {
+                    width: 238px;
+                    height: 303px;
+                    float: left;
+                    border-radius: 10px 0px 0px 10px;
+                    margin-right: 20px;
+                }
+
+
+
+
+                .texts-abxazia {
+                    margin-left: 20px;
+                    margin-top: 20px;
+
+                }
+
+                .detskiy-and-vzrosliy {
+                    display: flex;
+                    margin-left: 0;
+
+                    p {
+                        margin-right: 10px;
+                    }
+
+                }
+
+                span {
+                    color: #FFC700;
+
+
+                }
+
+                .price-and-others {
+                    span {
+                        color: #0499DD;
+                        margin-right: 10px;
+                    }
+                }
+
+
+
+                .subinfo {
+                    color: black;
+                }
+
+                .lines-nabarot {
+                    width: 3px;
+                    height: 95px;
+                    background-color: #0499DD;
+                    position: absolute;
+                    margin-left: 248px;
+                    margin-top: -0px;
+                }
+
+                .price-and-others p {
+                    font-size: 12px;
+
+                }
+
+            }
+
+        }
+    }
+
+    .btns {
+        display: flex;
+
+        .like-container {
+            margin-left: 20px;
+            width: 50px;
+            height: 50px;
+            background-color: #EDEDED;
+            border-radius: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    .radios-input {
+        display: block;
+
+        span {
+            display: flex;
+            margin-left: 20px;
+            margin-top: -25px;
+            font-weight: 100;
+            font-family: sans-serif;
+        }
+
+        input {
+            width: 15px;
+            height: 15px;
+            color: #0499DD;
+        }
+    }
+    .divs-num {
+        text-align: center;
+        font-family: sans-serif;
+        margin-top: 20px;
+    }
+}

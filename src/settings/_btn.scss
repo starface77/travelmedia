@@ -1,0 +1,9 @@
+.btn-blue {
+    width: 230px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 60px;
+    background: var(--blue-grad, linear-gradient(93deg, #0499DD 0%, #17C1BC 100%));
+    border: #17C1BC;
+    color: white;
+}

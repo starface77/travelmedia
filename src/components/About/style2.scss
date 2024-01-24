@@ -1,0 +1,47 @@
+.about-wrapper {
+    display: flex;
+    align-self: center;
+
+    .about-img {
+        background: url("https://s3-alpha-sig.figma.com/img/0a9c/cc68/0785ec6a22d0af4645956057c785a77d?Expires=1707091200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=CYhU2Zy8Cv3xroBo7Ro8WvJP7U8erHZbT3i0v~w4VdT~Cjj2-nVlkUWf-EvlgJZ9Gkr3hja51zJYRnxP8KtOZxi5BkVpuqhvSwjqKJzhEIg4ut1VVHG6-ytF-KwFcUrvDEbMJIF8FKbq7a3YerHNHcQ5x6jhCTaaawVqILwmWyyZotDzVAxQDi5SX1JTrXfsSypuVdQ6ZXZDxcKAwOCprSfnVqSKu1CtXmaqm2ZBrbHvKIriQ9iGb71JlD8taRK9LCwF1o1OBbhhM1A0ahhZh-B5Eg-W9~ZzL6ncHtvA~2abVTe6dYDqJiAqRFVIhJeyx9gPH~SYvAal5UjMASXGwg__");
+        width: 901px;
+        height: 749px;
+        border-radius: 0px 10px 10px 0px;
+        margin: 0;
+    }
+
+    .div-text {
+        width: 492px;
+        height: 476px;
+        border-radius: 10px;
+        background-color: #EDEDED;
+        margin-left: 600px;
+        position: relative;
+        padding: 20px;
+        margin-top: 120px;
+
+        .texts-about2 {
+            font-family: sans-serif;
+            text-align: center;
+
+            .dates {
+                span {
+                    margin-left: 20px;
+                    color: #282828;
+                    font-family: sans-serif;
+                    font-weight: 700;
+                    font-size: 18px;
+                }
+            }
+
+            .numbers {
+                margin-top: 70px;
+                display: block;
+                span {
+                    margin-left: 20px;
+                    
+                }
+            }
+        }
+    }
+}

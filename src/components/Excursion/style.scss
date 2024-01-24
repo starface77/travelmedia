@@ -1,0 +1,98 @@
+.excursion-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin-top: 50px;
+    margin-left: 50px;
+
+    .wrapper {
+        font-family: sans-serif;
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+        .derjatel {
+            padding: 10px;
+            margin-top: 50px;
+        }
+
+        .left {
+            height: 100px;
+            float: left;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 20px;
+           }
+
+
+           
+
+        .typer {
+            color: #0499DD;
+            font-size: 18px;
+            font-style: normal;
+            margin-top: 10px;
+            font-weight: 700;
+            line-height: normal;
+        }
+    }
+}
+
+#fu1 {
+    margin-top: -200px;
+}
+
+.center-info {
+    color: #282828;
+    margin-right: -700px;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+
+    button {
+        margin-left: 40px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .excursion-wrapper {
+        margin-left: 10px;
+        display: block;
+
+        .wrapper {
+            width: 100%;
+            display: flex;
+
+            .text-go {
+                margin-left: 100px;
+            }
+
+
+
+           .left {
+            height: 100px;
+            float: left;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           }
+            
+        }
+    }
+    .center-info {
+        width: 99%;
+        float: left;
+        button {
+            margin: 0;
+            margin-top: 20px;
+        }
+    }
+    
+    #fu1 {
+      margin-top: 0px; 
+    }
+}

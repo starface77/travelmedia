@@ -1,0 +1,56 @@
+.review-json {
+    display: block;
+    b {
+        margin-left: 50px;
+    }
+
+    .review-wrapper {
+        margin-top: 100px;
+        margin-left: 100%;
+        color: black;
+        background-color: #EDEDED;
+        width: 700px;
+        height: 322px;
+        border-radius: 10px;
+        padding: 20px;
+        margin-left: 300px;
+
+
+        
+        .main-container {
+            display: flex;
+          
+            .last-component {
+                display: flex;
+                margin-right: 100px;
+            }
+            .left {
+                img {
+                    width: 245px;
+                    height: 245px;
+                    border-radius: 10px;
+                    float: left;
+                }
+            }
+
+            .right {
+                margin-left: 20px;
+                font-family: sans-serif;
+                z-index: 11;
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .review-json {
+        .review-wrapper {
+            .main-container {
+                width: 280px;
+                height: 447px;
+                border-radius: 10px;
+            }
+        }
+    }
+}

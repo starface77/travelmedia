@@ -1,0 +1,36 @@
+[
+    {
+        "img": "https://s3-alpha-sig.figma.com/img/6944/9b91/5c87a4d60e7704438747f3ceff84de49?Expires=1706486400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=U3BV6fMvCS5NKxe4QbpPxKUtcZCkV2Yg4WgFMOrNCp5Glw2DDPLQjkHGRgkH2VmvZJT~zidzPMsqcFh8GAFTOu0QjV94fN1YbdGtjjd0pelvQkh0viT4iLEaez7ffNqdMXQQuD64oAyyzkRzDGFXB2i1vfGoIN~lITf4O5kreXN~Zn~ruioYMXmig-gxUWqD6MurkgWzJWhT-uy~gERNsbfZuPQ6aqiwtvLyw3FIu5TRbN2an1rG6iJXyuBuZPU2vXhueFUKDcCZ3PgLdcXJBYJMt7JC7ZdEdfqnQv7UdvEtvWRdA-tuaWd0Vcc8qNf3KMh4o9lWOSWIkGISn23xLg__",
+        "type": "Автобусный тур",
+        "subtype": "Золотое кольцо Абхазии (из Адлера)",
+        "ide": "fu1",
+        "price": "1 618 ₽",
+        "detskiy": "1 412 ₽",
+        "time": "2,5 часа",
+        "biletdets": "Взрослый билет",
+        "biletvzros": "Детский билет",
+        "subinfo": "Вас ждет путешествие по Золотому Кольцу Абхазии на Мерседес Спринтер (20 мест). По маршруту вас будет сопровождать профессиональный гид. Посадка на экскурсию осуществляется с вашего отеля или ближайшей автобусной остановки. Пересечение границы без пересадок...",
+
+        "imgjipping": "https://api.delfi.lt/media-api-image-cropper/v1/278f6ca0-7c67-11ed-8790-ef081baa7d85.jpg?noup&w=1200&h=711&fx=0.5&fy=0.25",
+        "typejipping": "Джиппинг",
+        "subtypejipping": "Идём делать путешествие в северную африку!",
+        "idejipping": "fu1",
+        "pricejipping": "15 618 ₽",
+        "detskiyjipping": "245 412 ₽",
+        "timejipping": "35 часа",
+        "biletdetsjipping": "Взрослый билет",
+        "biletvzrosjipping": "Детский билет",
+        "subinfojipping": "Вас ждет путешествие По Городу африканцих. По маршруту вас будет сопровождать профессиональный гид. Посадка на экскурсию осуществляется с вашего отеля или ближайшей автобусной остановки. Пересечение границы без пересадок... Даже можем встретить лисую пацанов",
+
+        "yaxtingimg1": "https://i.ytimg.com/vi/6iiyeSyCJ9Q/maxresdefault.jpg",
+        "yaxting": "ЯХТИНГ",
+        "subtypeyaxting": "Идём делать путешествие в подводный мир с акулами!!",
+        "ideyaxting": "fu1",
+        "priceyaxting": "25 618 ₽",
+        "detskiyyaxting": "345 412 ₽",
+        "timeyaxting": "155 часа",
+        "biletdetsyaxting": "Взрослый билет",
+        "biletvzrosyaxting": "Детский билет",
+        "subinfoyaxting": "Вас ждет путешествие c Красивие большие акулы. По маршруту вас будет сопровождает белая акула большими зубами. Посадка на экскурсию осуществляется с вашего место нахождение или ближайшей последной остановки. Пересечение границы без пересадок..."
+    }
+]

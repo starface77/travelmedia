@@ -1,0 +1,29 @@
+.nav-wrapper {
+
+    .right {
+        float: right;
+        margin-right: 100px;
+
+        .exmeniu {
+            width: 40px;
+            height: 40px;
+            display: none;
+        }
+    }
+
+    .right a {
+        text-decoration: none;
+        margin-left: 30px;
+        color: #FFF;
+        font-family: sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+
+        &:hover {
+            color: #FFC700;
+        }
+    }
+
+}

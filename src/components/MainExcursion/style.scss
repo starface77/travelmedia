@@ -1,0 +1,103 @@
+.main-excursion-wrapper {
+    width: 100%;
+
+    .nav-main {
+        width: 100%;
+        height: 670px;
+        background: url("https://s3-alpha-sig.figma.com/img/6944/9b91/5c87a4d60e7704438747f3ceff84de49?Expires=1707091200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Ky874ovDiyLRAShNR~~gKP0rLN6rZguWS23~IZpVHJaK6KJIE~asVnZ1IUwYFDHRJXuiCwXEXRuiPd7gXwxMv5UwWOVh-XM3Lib1z6fHshKSynorznaKMCxAYrPODLYLes9IDr2FdDjBj4QtxwsOp2bJQUxAhYfoIgFiQVbqrSvhnXUT7o7kJUDLTYwSoLYueeqRo2X2tl02NLyOYci3OcdByYgIwZAg8LCp~f~zE-OQxCz2sW2aLCdlNWfMuMsaC~jhYw89f7W-u-ZxYVQbm1EmsUr9n-aPtNiymX0fDfNaRjMD2XbpAdHxMNujF6jQscFr2dMns76XBXWMutrqLA__");
+        background-position: center;
+        background-size: cover;
+
+        .span-and-otr {
+            span {
+                color: #FFC700;
+                font-family: sans-serif;
+                font-size: 24px;
+                font-weight: 700;
+            }
+
+            h1 {
+                color: snow;
+                font-family: sans-serif;
+            }
+
+            padding: 150px;
+
+            .btn-and-like {
+                display: flex;
+
+                .like-container {
+                    margin-left: 20px;
+                    width: 45px;
+                    height: 45px;
+                    fill: #FFF;
+                    opacity: 0.7;
+                    backdrop-filter: blur(10px);
+                    border: 2px solid #FFF;
+                    border-radius: 100px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+        }
+    }
+
+    .statistic {
+        padding: 100px;
+
+        .statistic-container {
+            font-family: sans-serif;
+
+            p {
+                width: 382px;
+            }
+        }
+
+        .right {
+            margin-top: -200px;
+            display: flex;
+
+            p {
+                margin-left: 20px;
+            }
+
+            b {
+                margin-left: 40px;
+                margin-top: 30px;
+            }
+
+            .fon-img svg {
+                position: absolute;
+                margin-left: 40px;
+                margin-top: -10px;
+            }
+
+            .money-container {
+                margin-left: 50px;
+                width: 160px;
+                height: 100px;
+                border-radius: 10px;
+                background: rgba(255, 255, 255, 0.20);
+                box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.10);
+                backdrop-filter: blur(10px);
+
+                span {
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    .hoop {
+        .left1 {
+            width: 50%;
+        }
+
+        .right1 {
+            margin-left: 700px;
+            margin-top: -200px;
+           
+        }
+    }
+}

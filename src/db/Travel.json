@@ -1,0 +1,38 @@
+[
+    {
+        "id": "perviy-1",
+        "type": "Автобусный тур",
+        "title": "Обзорная по Сочи (из Адлера)",
+        "time": "6 часов",
+        "price": "618 ₽",
+        "subtitle": "Приглашаем вас на экскурсию Обзорная по Большому Сочи Экскурсия начнется с подъёма на гору Большой Ахун - это  высшая точка (665 метров) на побережьи Сочи. На вершине горы Большой Ахун есть смотровая башня, построенная в 1935-36 годах по проекту архитектора С. И. Воробьева...",
+        "image": "https://s3-alpha-sig.figma.com/img/64c1/67d4/70f74e728e0ecd6b914323b8e0d65413?Expires=1706486400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=lfurCGvOkv8v9mJ3~Ukbh~CeL8hZPGjiEv3n~bf3yjgkzv819lGLbrJjSVr9rtWOQnvsXKt5g96bIiuTJdMztKZcpWAcPgTccVBtHBfLWs-y5JD1FCtKjqdU8SEzZ4kMRBxdQBU4SzUft2PsCJ-UMkQm-Szek0S5sH5hNAUjwB2u3eiVEpzx31af9T0drQ2LLeA2LgymqEMf2Y-ubFB0Wap4R~OAgSiYN2RrAUwLEG8~T7Gl~WjzQw6-WQ~7jHnIQmf4e00jDueUVAAm5y9-86sQ8WEt9MiwiVLbj3S7VbhyWCh8dyUA6xJkiL3blG19MocbTO4S9ArfDlsdwQGsuA__"
+    },
+    {
+        "id": "perviy-2",
+        "type": "Автобусный тур",
+        "title": "Обзорная по Сочи (из Адлера)",
+        "time": "6 часов",
+        "price": "618 ₽",
+        "subtitle": "Приглашаем вас на экскурсию Обзорная по Большому Сочи Экскурсия начнется с подъёма на гору Большой Ахун - это  высшая точка (665 метров) на побережьи Сочи. На вершине горы Большой Ахун есть смотровая башня, построенная в 1935-36 годах по проекту архитектора С. И. Воробьева...",
+        "image": "https://s3-alpha-sig.figma.com/img/a09e/8be0/7a2d9748f467b217061c7561fe0650af?Expires=1706486400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=m8I5O0ZEwFawYOuYf99-gGUhpWDTtCTjv2HD8KdIdnvU7oDrc~tubKD3olBPpLJlRECLJ7HNy4jUQ9LFjs71i-ahv583u9YxsEH~jDf0bqg40rjFPhfTPrio8VHWFddn0BqLd2g9s5kEedSOMt9v9tVeCnPV-ikYs3RHwRgoU4nP4hLvX~MYt27xYnoAMzoaBidMGA~i4wLFH7Rajh4f1UE0yWMEbg1buHk4hWl8HhmB9Ju~AWrDl7UQ~H3t0pZThkqXLKQhiQkZq5UaZkhzcOUXGwNJOHiNwNkTRPV~9k1DYNBU-x2-T-ZTju7kfMchbVWKQ5IPH14pK7OfhtZEtg__"
+    },
+    {
+        "id": "perviy-3",
+        "type": "Квадротур",
+        "title": "Пасть дракона",
+        "time": "2,5 часа",
+        "price": "3 515 ₽",
+        "subtitle": "Маршрут на Квадроциклах проходит по горной реке Мзымта вдоль белых скал и самшитовый лес к водопаду Глубокий Яр или Пасть Дракона (экскурсионное название). Высота водопада 41,5 метр - это один из самых высоких водопадов Большого Сочи...",
+        "image": "https://s3-alpha-sig.figma.com/img/d39c/ca95/9915328f80ddbcfe3528ced8957eaea2?Expires=1706486400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=JTE76m583i3~MnpNZslUiTsdL0Vt4RaWBl~1dKOgs3nhtdoUpS5XesgQ7XsN8IpWB00jjiTrxJMrKUQnEShuDHvbu9hMWQozEYg6GeKIF4-usEsNKmAf8qvXFIHl7BO8SP9ngtV5wqrbvQT~9nGa8DTCC4y58TcXCtcK0XuAspmA3D1baxLUdlagfuNLbkG8GYY5XFZn7hgsz2bchN904TOZysGwPeGLo6Oyo9cbuunonrpz6RxX8yym0yyyvZ3ZbCtIxYTJU4irUXXES~IlSErVO~6RF5LrVeMie74oPgqaSVFsifZyRqDwMKl7czD6zrZLHuNx0WzvCjLKS~niMw__"
+    },
+    {
+        "id": "perviy-4",
+        "type": "Автобусный тур",
+        "title": "Женский монастырь",
+        "time": "4 часа",
+        "price": "618 ₽",
+        "subtitle": "Троице - Георгиевский женский монастырь расположен в селе Лесное в живописном месте, в котором гармонично сочетаются красота природы и красота архитектуры сотворенная руками человека. Это удивительное место расположено совсем недалеко от Чёрного моря - всего в 20 километрах",
+        "image": "https://s3-alpha-sig.figma.com/img/d394/f1fc/bbde3122d0f40e34f0f2ce664b8cccfd?Expires=1706486400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=e2UURoOADfKo-bEPg6Yw~ShdZ5yIdaIO9GF3W9BmzIJMIHbM5piCZb~3Grb9kM8yH5lbwqNG36Jftqq8XuzLxzRzuKiQ8-cmTZIkH5E2vjI8wzBP0U96yrKi3F2664eAvQdS05ZlJu3dyFmR7rVxJt-Rd6JkthKs28NYFR4Sf95uuOI~TmJbAce8aX3ll~wVCYdLD7APw4uMbxYbv~94xsi536wTy4HLbkjEFftQ4RKw6XE~QRWcb5Y4x1X8TpNjZ-26BYxtiRnjX7u1L7LKJqRCbWhUPAOnxbbN3aQatJuHbGLWyCT7BgzUF6R5HkQvwe1-yTGoisFC5x37jM6SQw__"
+    }
+]

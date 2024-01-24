@@ -1,0 +1,27 @@
+[
+    {
+        "ide": "mda1",
+        "img": "https://s3-alpha-sig.figma.com/img/43a7/99d7/a2d169555c408dff184238d1de39b2ae?Expires=1706486400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=mUhmtjavoD4uwhgQDinYeamwPvcaJ-Bkoo5ovqBNfnujGfUPcYcJFiySLxvdvAquWgu0vCW0WOcUHLRps1yDNCpvnuryfKpCtJGeDVGknHu~YTUjmK9Gpqb2KmRxMB8jYEjBp4IYnP3zKM2W42OqJWQ9e0gayjus9NblFGuUjiwhR93BQgXKQXtIrTveeUYxlwfYbbm3H8~PxIWn7MbpInBhlSPHisxBt2t~U8b-LY6OTAhfC0LKevJIM05j3gjklqjXn7bFgEYNLg1kanFa~jfXgG6cRUYhl1q-r5TmaDsqNBWeNPHI-q~sqOjCHI3HeYiV6~WQLfUX-qrYgfd1jw__",
+        "type": "Автобусный тур",
+        "subtype": "Один из самых насыщенных впечатлениями, доступных по цене и популярных видов отдыха. Во время одной поездки можно посмотреть достопримечательности сразу нескольких городов, причем обойдется это едва ли не в разы дешевле классического экскурсионного тура с ночевками в отелях."
+    },
+    {
+        "ide": "fu1",
+        "img": "https://s3-alpha-sig.figma.com/img/43a7/99d7/a2d169555c408dff184238d1de39b2ae?Expires=1706486400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=mUhmtjavoD4uwhgQDinYeamwPvcaJ-Bkoo5ovqBNfnujGfUPcYcJFiySLxvdvAquWgu0vCW0WOcUHLRps1yDNCpvnuryfKpCtJGeDVGknHu~YTUjmK9Gpqb2KmRxMB8jYEjBp4IYnP3zKM2W42OqJWQ9e0gayjus9NblFGuUjiwhR93BQgXKQXtIrTveeUYxlwfYbbm3H8~PxIWn7MbpInBhlSPHisxBt2t~U8b-LY6OTAhfC0LKevJIM05j3gjklqjXn7bFgEYNLg1kanFa~jfXgG6cRUYhl1q-r5TmaDsqNBWeNPHI-q~sqOjCHI3HeYiV6~WQLfUX-qrYgfd1jw__",
+        "type": "Джиппинг",
+        "subtype": "Это путешествие на автомобилях высокой проходимости с преодолением естественных препятствий, это экстремальный вид спорта и отдыха, представляющий собой прохождение туристического маршрута по бездорожью на автомобилях."
+    },
+    {
+        "ide": "mda3",
+        "img": "https://s3-alpha-sig.figma.com/img/cd98/f05b/e66fc2e2ca69c6381af65cbccd7a82a0?Expires=1706486400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=AvUgx2stE4c2~8RBo5D98fsFwQqk51blwNZfGNJ4ug~yw-T8GRd8I2X-5ekaY1Z58YufYeOHDPbCLymwa1h2jdv03UZoZGCZNyuk9csxFap9rWaomxciebXwcyof4Jya4QcDGUum2iOv96YDqzgr-4jo7zR6PWrWHoH-pt~-uVumP5BdUUGht8~i108bSJTTlT8WaXE1jotBjl9h1or79seZnzhxtBzx8-JZgOMufygbrWdBngnr1GzNRVxUxjnvzCKmh6Ptmjn7N9hY3e14kBF46WsFWFEO8O4YuFU8MC0PT7jeBmoyyyii2frEySxbEy7leQ0ZPWu2Nfl7ckw-jQ__",
+        "type": "Яхтинг",
+        "subtype": "Это то же, что круиз на лайнере или прогулка на пароме, только на яхте больше свободы, размеры судна в разы меньше, нет назойливой команды, можно самостоятельно почувствовать себя капитаном, постоять за штурвалом. Именно здесь вы почувствуете величайшие просторы Черногор моря."
+    },
+    {
+        "img": "https://s3-alpha-sig.figma.com/img/4525/e6ff/dd2b39e5ca9ce21d4bd7af333e2624ac?Expires=1706486400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=EeCheRMWN0~NvksrJ2m7fWz4APtapkURS~YwD1XTQEUahtWC8agUBUPKQXEK-27c2KgRT8MqiY2VfPC~pTv7patjbJPoKj5oscAIP3CVUTyZtwCePghJ23Vgo5rqp-UILF3haFp8qW7Xmof8WS7r6lXpNGpkh4oYmCL1E1ONJgHEtAqw0fL89Nrht55lJGzaoxMeXlLrPwqZGbtsSjY6O3sTBqjdbo294735MqUz8WGQF01GsREED9v3HLyYEmbl76Gu-9cgxojKyY9~SgOeyu9nLtk29NO3KuuwOA8XM7764STbtJAgHrvmolMq17WNkmO0mb-Nm372O7V2DkW8hQ__",
+        "type": "Каньонинг",
+        "subtype": "Это экстремально-спортивный вид отдыха, который заключается в преодолении каньонов (обводненных или нет) при помощи альпинистского и иного снаряжения, а иногда и вброд, но без лодок или иных плавсредств.",
+        "ide": "fu1"
+    }
+]
+

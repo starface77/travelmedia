@@ -1,0 +1,36 @@
+.marshut-wrapper {
+    height: 100px;
+    padding: 100px;
+
+    ul {
+        list-style-type: none;
+        font-family: sans-serif;
+
+        li {
+            position: relative;
+            padding-left: 20px;
+            margin-top: 20px;
+
+            &::before {
+                content: '';
+                width: 10px;
+                height: 10px;
+                background-color: #FFC700;
+                border-radius: 50%;
+                display: inline-block;
+                position: absolute;
+                left: 0;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+        }
+
+        span {
+            font-size: 14px;
+            font-family: sans-serif;
+            font-weight: 700;
+            padding-top: 100px;
+        }
+    }
+
+}

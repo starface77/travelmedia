@@ -1,0 +1,53 @@
+.information-wrapper {
+    padding: 100px;
+    font-family: sans-serif;
+
+    .info-container {
+        display: block;
+        margin-top: 50px;
+        .left {
+            
+            margin-top: 20px;
+           .images {
+            display: flex;
+            align-items: center;
+           }
+
+            img {
+                width: 51px;
+                height: 51px;
+            }
+
+            .pass1 {
+                align-items: center;
+                display: flex;
+            }
+
+
+            * {
+                margin-right: 20px;
+            }
+
+        }
+
+        .right {
+            margin-top: -200px;
+
+            .container {
+                width: 360px;
+                height: 131px;
+                background-color: #EDEDED;
+                border-radius: 10px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 14px;
+                margin-bottom: 50px;
+
+                p {
+                    width: 70%;
+                }
+            }
+        }
+    }
+}

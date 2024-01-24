@@ -1,0 +1,39 @@
+.expenses-wrapper {
+    font-family: sans-serif;
+    padding: 100px;
+    margin-top: 100px;
+    .expenses-container {
+        display: block;
+        float: left;
+    }
+
+    .right {
+        display: flex;
+        margin-top: 50px;
+      
+
+        .fon-img svg {
+            position: absolute;
+            margin-left: 40px;
+            margin-top: -10px;
+        }
+
+        .money-container {
+            margin-left: 50px;
+            width: 190px;
+            height: 100px;
+            border-radius: 10px;
+            background: rgba(255, 255, 255, 0.20);
+            box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.10);
+            backdrop-filter: blur(10px);
+            * {
+                text-align: center;
+                margin-top: 10px;
+            }
+
+            span {
+                text-align: center;
+            }
+        }
+    }
+}

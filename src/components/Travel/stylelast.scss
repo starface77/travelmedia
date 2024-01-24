@@ -1,0 +1,65 @@
+.travel2-wrapper {
+    font-family: sans-serif;
+  
+    .headinger {
+      margin-top: 280px;
+      margin-right: -100px;
+    }
+  
+    .maindiv {
+      display: flex;
+      gap: 30px;
+      position: relative;
+      padding: 10px;
+        margin-left: 300px;
+      .btntop {
+        margin-left: 0px;
+        margin-top: 10px;
+      }
+    }
+  
+    .maindiv {
+      .main-item {
+        display: flex;
+      }
+    }
+  
+    .maindiv .background-title {
+      width: 360px;
+      height: 497px;
+      border-radius: 10px;
+      padding: 20px;
+      position: relative;
+  
+    }
+  
+    .type {
+      color: var(--yellow, #FFC700);
+      font-size: 14px;
+      font-weight: 700;
+    }
+  
+    .titl1 {
+      margin-right: 10px;
+      color: var(--white, #FFF);
+      font-size: 12px;
+      font-weight: 500;
+    }
+  
+    .texts-edu {
+      margin-top: 200px;
+      display: block;
+    }
+  
+    .icon-time,
+    .icon-price {
+      margin-left: 5px;
+      margin-top: 5px;
+    }
+  
+    .maindiv .background-title .title {
+      color: var(--white, #FFF);
+      font-size: 12px;
+      font-weight: 500;
+    }
+  }

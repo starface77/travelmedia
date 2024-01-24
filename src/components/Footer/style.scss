@@ -1,0 +1,223 @@
+.footer-wrapper {
+
+
+    .laster {
+        background-color: #EDEDED;
+        display: flex;
+        align-items: center;
+        height: 210px;
+
+        * {
+            margin-left: 100px;
+        }
+
+        .left img {
+            width: 80px;
+            height: 114px;
+        }
+
+        .links {
+
+            font-family: sans-serif;
+            float: left;
+
+            a {
+                display: block;
+                margin-top: 10px;
+                margin-left: 10px;
+                color: #282828;
+                text-decoration: none;
+            }
+        }
+
+        .social-links {
+            font-family: sans-serif;
+            float: left;
+
+            a {
+                display: block;
+                margin-top: 10px;
+                margin-left: 10px;
+                color: #282828;
+                text-decoration: none;
+            }
+        }
+    }
+
+    .right {
+        font-family: sans-serif;
+        float: left;
+
+        a {
+            display: block;
+            margin-top: 10px;
+            margin-left: 10px;
+            color: #282828;
+            text-decoration: none;
+        }
+
+        svg {
+            display: flex;
+            margin-left: 20px;
+        }
+
+        .svg-icons {
+            display: flex;
+            margin-left: 0px;
+            margin-top: 10px;
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .footer-form {
+        width: 100%;
+        height: auto;
+        background-size: cover;
+
+        .blurred-div {
+            margin-left: 0;
+            padding: 20px;
+            width: 100%;
+
+            h3 {
+                font-size: 20px;
+                margin-top: 30px;
+            }
+
+            button {
+                margin-left: 0;
+            }
+
+            input {
+                width: 100%;
+            }
+        }
+    }
+
+    .laster {
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+
+        * {
+            margin-left: 20px;
+        }
+
+        .left img {
+            margin-bottom: 20px;
+        }
+
+        .links,
+        .social-links {
+            float: none;
+            margin-top: 10px;
+        }
+    }
+
+    .right {
+        margin-top: 20px;
+
+        .svg-icons {
+            flex-direction: row;
+            margin-top: 0;
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .footer-form {
+
+        .blurred-div {
+            width: 100%;
+            margin-left: 0;
+            padding: 20px;
+
+
+            h3 {
+                font-size: 18px;
+                margin-top: 20px;
+            }
+
+            span {
+                font-size: 14px;
+            }
+
+            button {
+                margin-left: 0;
+            }
+
+            input {
+                width: 100%;
+                margin-top: 10px;
+            }
+        }
+    }
+
+    .laster {
+
+        .left img {
+            margin-left: -50px;
+        }
+
+        .links {
+            margin-right: 230px;
+            margin-bottom: -100px;
+        }
+
+        .social-links {
+            margin-left: 150px;
+        }
+
+        .right {
+            .svg-icons {
+                margin-top: -160px;
+                margin-left: 43px;
+            }
+
+            a {
+                margin-top: -10px;
+                margin-left: 160px;
+                font-size: 18px;
+                font-family: sans-serif;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+            }
+
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+
+    .laster {
+        background-color: #EDEDED;
+        padding: 50px;
+
+        .left img {}
+
+        .links {}
+
+        .social-links {}
+
+        .right {
+            .svg-icons {}
+
+            a {
+
+                font-size: 17px;
+                font-family: sans-serif;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+            }
+
+        }
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .footer-wrapper {}
+}

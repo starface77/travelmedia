@@ -1,0 +1,20 @@
+[
+    {
+        "idperson": "ivan1",
+        "img": "https://s3-alpha-sig.figma.com/img/77b1/65d7/cb632d3571d960b32d5468d67b43f4d8?Expires=1706486400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=DUSqxpaklqG9iVrlQWDvN714IeUeKbuSyIsOPGBcgSwJiC1Qk2m06gjuK7MZg~35NINeks4VtE2a44meyG21ZRf1fueAagFl3JraOvdD8W8odhFE8mh3YMdP~~Hk8hOgMIkNX-op1aT41vAWDmWY7she1sY2s7MDo77KJX~U-AitwpGpceF87udIsEbu7l7dH-RUpHPDYqoYv45s23-th-wyuH74e0PPiwUc9ykFlpg7YyjUnljb7QqYMLJ1WtFrMdSq0m2TOILnPzxCVaAEbRBqEcTIZP18eWYy3lUN~H2unv9Fp~lI2IdgHykCY9l1uvs-5a1wxg1uQOk0yFkVPw__",
+        "name": "Иван Иванов, 25 лет",
+        "textreview": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+    {
+        "idperson": "ivan1",
+        "img": "https://s3-alpha-sig.figma.com/img/a5fe/3956/cebfed890cb5929684934c84831a3508?Expires=1706486400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=cUrNlpyepMiqVVsmOeVQJJMtfG88AZ6fAeXKK69y88De5Z0M111rN8kVIYpZk0Sdi5dUQ5m~ouf2aURgL35dutquQmAN5kjQn6aXZ10PrQe0UJEwFmNnmZzaba4x2h89tCcrrOXVXm76Dd2ZXgsQsrfXciuJhKvd4IKPKnM95Px1Nm70ZzQc0pjcDRBD4qVcpNLBzcPcJI0g54UnvjcYhaTy5P0n1dcgb5yZCYZDjqka9X2ZBVPUsN75uYKUMYtW8D1H0-SFOyO77eqi-y3ORnGQGVroyAvvyKriBu7shTYOLd4AtsUpR9r1dAfv6SMJLdPE1VPtLRZMay5obSEZAQ__",
+        "name": "Иван Иванов, 25 лет",
+        "textreview": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+    {
+        "idperson": "ivan1",
+        "img": "https://s3-alpha-sig.figma.com/img/77b1/65d7/cb632d3571d960b32d5468d67b43f4d8?Expires=1706486400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=DUSqxpaklqG9iVrlQWDvN714IeUeKbuSyIsOPGBcgSwJiC1Qk2m06gjuK7MZg~35NINeks4VtE2a44meyG21ZRf1fueAagFl3JraOvdD8W8odhFE8mh3YMdP~~Hk8hOgMIkNX-op1aT41vAWDmWY7she1sY2s7MDo77KJX~U-AitwpGpceF87udIsEbu7l7dH-RUpHPDYqoYv45s23-th-wyuH74e0PPiwUc9ykFlpg7YyjUnljb7QqYMLJ1WtFrMdSq0m2TOILnPzxCVaAEbRBqEcTIZP18eWYy3lUN~H2unv9Fp~lI2IdgHykCY9l1uvs-5a1wxg1uQOk0yFkVPw__",
+        "name": "Иван Иванов, 25 лет",
+        "textreview": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    }
+]
