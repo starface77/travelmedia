@@ -9,8 +9,8 @@ function Footer() {
                 </div>
                 <div className="links">
                     <a href="/">Главная</a>
-                    <a href="/">Экскурсии</a>
-                    <a href="/">Личный кабинет</a>
+                    <a href="/excursion">Экскурсии</a>
+                    <a href="/Personal">Личный кабинет</a>
                 </div>
                 <div className="social-links">
                     <a href="/"><svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">

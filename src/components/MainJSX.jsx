@@ -7,6 +7,7 @@ import { Exception } from 'sass';
 import ExcursionAbouter from './Excursion-time/ExcursionDIvs';
 import MainExcursion from './MainExcursion/MainExcursion';
 import { useEffect } from 'react';
+import Favorites from './Favorites/Favorites';
 
 function MainJSX() {
 
@@ -17,6 +18,7 @@ function MainJSX() {
       <Route path="/travel" element={<Travel />} />
       <Route path="/excursion" element={<ExcursionAbouter />} />
       <Route path="/allexcursion" element={<MainExcursion />} />
+      <Route path="/Personal" element={<Favorites />} />
     </Routes>
   );
 }

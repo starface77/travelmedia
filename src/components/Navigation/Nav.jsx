@@ -14,7 +14,7 @@ function Navigation() {
                 <a href='/excursion'>
                     Экскурсии
                 </a>
-                <a href='/'>
+                <a href='/Personal'>
                     Личный кабинет
                 </a>
              

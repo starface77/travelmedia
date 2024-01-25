@@ -1,0 +1,55 @@
+.favorites-component {
+
+    font-family: sans-serif;
+
+    .nav {
+        background: url("https://s3-alpha-sig.figma.com/img/dd11/270c/618047585818a6724c61be49890f1b88?Expires=1707091200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Mt0LxMmzsMhwdTxKgAB-HIb9yVIiHW3Zh~WUnfXauT0sf07Gbo2CV9gPHnvVbAbTczP2amlgmFvhu0n-WwhSRa~yppTcgNQba5NknBjT201r9sK9Ko0lHOhyTeZjyaVxk-Td~V6H7YHd0zzoy8hBpow8Jz6vOf1Xu-ElZ4Msg1XMzDFyRKhE5Ty5Nr2aLh37T979ZSu8SBDJGqEAQqQ~h-Zx~iu1LmGs3dk-cMeg9Rb50kCxOvn18dkK7i9KrNsuJkLQyj74K466snhGe-Xspu22VH5kNs0Y~VMTEFmbyCqolAxmJzDhRJApHDCGyVlZgLGczzCBSRhmDKVJNlk5XA__");
+        background-size: cover;
+        background-position: center;
+        height: 289px;
+    }
+
+    span {
+        color: red;
+        font-size: 2em;
+        font-weight: 1000;
+        opacity: 0.5;
+        margin-top: 100px;
+
+    }
+
+    .span1 {
+
+        color: rgb(38, 255, 0);
+        font-size: 2em;
+        font-weight: 1000;
+        opacity: 0.5;
+        margin-top: 100px;
+        padding: 50px;
+
+    }
+
+    b {
+        margin-bottom: 50px;
+    }
+
+    .favorites-list {
+        padding: 100px;
+        .liked-travels {
+            display: block;
+
+            div {
+                div {
+                    margin-top: 10px;
+                    width: 360px;
+                    height: 50px;
+                    border-radius: 10px;
+                    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.10);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+            }
+        }
+    }
+}

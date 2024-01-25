@@ -18,10 +18,21 @@ function ExcursionAbout(props) {
     const [isVisible, setIsVisible] = useState(false);
     const [isBlue, setBlue] = useState(null);
     const [counter, setCounter] = useState(1);
+    const [Favorites, setFavorites] = useState([]);
 
     function toggleHeart() {
+        const listsof = [
+            "Автобусный тур",
+            "Золотое кольцо Абхазии (из Адлера)"
+        ]
         setIsHeartActive((prev) => !prev)
+        localStorage.setItem("avtobus", JSON.stringify(listsof))
     }
+    const favorites1 = document.querySelectorAll('.div-gold');
+
+    useEffect(() => {
+        window.localStorage.setItem("TravelsAll", JSON.stringify(favorites1));
+    }, [setFavorites]);
 
     function dontshow() {
         setIsVisible(!isVisible)
@@ -118,7 +129,7 @@ function ExcursionAbout(props) {
             const typedetskiy = element.querySelector('.type-detskiy');
 
             const img = element.querySelector('.left-img')
-            
+
 
             if (img) {
                 img.style.backgroundImage = `url(${props.yaxtingImg})`;
@@ -212,7 +223,7 @@ function ExcursionAbout(props) {
                 prevSpan.style.color = "black";
             }
         }
-    
+
         const currentSpan = document.querySelector(`.span-${index}`)
         if (currentSpan) {
             currentSpan.style.color = "#0499DD"
@@ -634,7 +645,7 @@ function ExcursionAbout(props) {
                             } else if (counter === 3) {
                                 if (span3) span3.style.color = 'black'
                                 if (span1) span1.style.color = 'black'
-                            }               
+                            }
                             handleSpanClick(1 - counter)
 
                             if (counter <= 3) {
@@ -665,16 +676,16 @@ function ExcursionAbout(props) {
                             } else if (counter === 3) {
                                 if (span1) span1.style.color = 'black'
                                 if (span2) span2.style.color = 'black'
-                            }                            
+                            }
                             handleSpanClick(counter)
                             if (counter <= 3) {
                                 const spanMain = document.querySelector(`.span${counter}`)
                                 if (spanMain) spanMain.style.color = '#0499DD'
                             }
 
-                            setCounter((prevCounter) => (prevCounter % 3) + 1)  
+                            setCounter((prevCounter) => (prevCounter % 3) + 1)
                         }} >
-                            <path d="M1 7L4 4L1 1" stroke="black" stroke-linecap="round"/>
+                            <path d="M1 7L4 4L1 1" stroke="black" stroke-linecap="round" />
 
                         </svg>
                     </div>
