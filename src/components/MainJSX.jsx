@@ -8,6 +8,7 @@ import ExcursionAbouter from './Excursion-time/ExcursionDIvs';
 import MainExcursion from './MainExcursion/MainExcursion';
 import { useEffect } from 'react';
 import Favorites from './Favorites/Favorites';
+import Auth from './Auth/Auth';
 
 function MainJSX() {
 
@@ -19,6 +20,7 @@ function MainJSX() {
       <Route path="/excursion" element={<ExcursionAbouter />} />
       <Route path="/allexcursion" element={<MainExcursion />} />
       <Route path="/Personal" element={<Favorites />} />
+      <Route path="/Auth" element={<Auth />} />
     </Routes>
   );
 }

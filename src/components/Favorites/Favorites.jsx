@@ -3,6 +3,7 @@ import Heading from "../common/Heading";
 import "./style.scss"
 import Footer from "../Footer/Footer";
 import Navigation from "../Navigation/Nav";
+import usericon from "../../assets/user-profile.png"
 
 function Favorites() {
     const [travelList, setTravelList] = useState([]);
@@ -43,6 +44,12 @@ function Favorites() {
                 <marquee >
                     <span className="span1">INFO:</span><span >Можно бронировать тур только 1 раз!</span>
                 </marquee>
+            </div>
+            <div className="user-icon">
+                <div className="icon">
+                    <img src={usericon} width="50px" height="50px" />
+                    <p>USER NAME</p>
+                </div>
             </div>
             <br />
             <div className="favorites-list">

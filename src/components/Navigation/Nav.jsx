@@ -1,6 +1,12 @@
+import { useState } from "react";
+import Auth from "../Auth/Auth";
 import "./style.scss"
 
 function Navigation() {
+    const [isRegistrationVisible, setRegistrationVisible] = useState("none")
+    function openreg() {
+        setRegistrationVisible(isRegistrationVisible("flex"))
+    }
     return (
         <div className="nav-wrapper">
             <div className="left">
@@ -17,8 +23,12 @@ function Navigation() {
                 <a href='/Personal'>
                     Личный кабинет
                 </a>
-             
+                <a href='/' className="auth">
+                    Регистрация
+                </a>
+
             </div>
+          
         </div>
     );
 }

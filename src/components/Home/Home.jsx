@@ -17,6 +17,7 @@ import { useState } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import { Link } from 'react-router-dom';
 import { useEffect } from 'react';
+import Auth from '../Auth/Auth';
 function Home() {
     const [username, setUsername] = useState('');
     const [number, setNumber] = useState('');
@@ -87,6 +88,7 @@ function Home() {
         <div className="main">
             <ToastContainer />
             <Navigation />
+          
             <div className="text-info">
                 <p>ПУТЕШЕСТВУЙ</p>
                 <h2>PERO TRAVEL</h2>
