@@ -1,4 +1,4 @@
-### `Travel Media` (Pero Travel || React Version)
+### `Travel Media` (Pero Travel)
 
 ⚠️ Site Created In React!
 
