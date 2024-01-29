@@ -1,3 +1,16 @@
+### Travel Media (Pero Travel || React Version)
+
+⚠️ Site Created In React!
+
+### `React` Framework or library?
+
+React is not a full-fledged framework; rather, it is a library developed and maintained by Facebook. It provides tools for building multi-component user interfaces, offering efficient state management and interaction with the virtual DOM to optimize interface update performance.
+
+React can be integrated with other libraries and development tools to create comprehensive applications. However, for the development of full-fledged web applications, additional libraries and frameworks are often employed.
+
+------------------------------------------------------
+### `Staring!`
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -69,13 +82,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-
-### Travel Media (Pero Travel || React Version)
-
-⚠️ Site Created In React!
-
-### React Framework or library?
-
-React is not a full-fledged framework; rather, it is a library developed and maintained by Facebook. It provides tools for building multi-component user interfaces, offering efficient state management and interaction with the virtual DOM to optimize interface update performance.
-
-React can be integrated with other libraries and development tools to create comprehensive applications. However, for the development of full-fledged web applications, additional libraries and frameworks are often employed.
