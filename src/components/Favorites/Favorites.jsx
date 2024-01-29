@@ -10,6 +10,7 @@ import { ToastContainer, toast } from "react-toastify";
 function Favorites() {
     const [travelList, setTravelList] = useState([]);
     const [counter, setCounter] = useState(0)
+    
     const notifysucces = (text) => toast.success(text, {
         position: "top-right",
         autoClose: 5000,
@@ -43,6 +44,7 @@ function Favorites() {
         localStorage.setItem("Number", "Удалено")
         setTimeout(() => {
             window.location.reload()
+            
         }, 3000)
         notifysucces("Через 3 секунды все информации о вас будет удалены!")
     }
@@ -58,8 +60,8 @@ function Favorites() {
         }
     }
     const username = localStorage.getItem("Username")
-    const email = localStorage.getItem("Email")
-    const number = localStorage.getItem("Number")
+    const email =    localStorage.getItem("Email")
+    const number =   localStorage.getItem("Number")
 
     return (
         <div className="favorites-component">
@@ -84,7 +86,7 @@ function Favorites() {
                         <Heading size={2}>Номер/Number</Heading>
                         <p>{number}</p>
                     </div>
-                    <button className="btn-blue" onClick={DeleteInfo}>Удалить аккаунт</button>
+                    <button className="btn-blue" onClick={DeleteInfo}>Удалить Информацию</button>
                 </div>
             </div>
             <br />

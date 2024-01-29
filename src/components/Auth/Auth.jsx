@@ -6,18 +6,20 @@ import { ToastContainer, toast } from "react-toastify";
 import Navigation from "../Navigation/Nav";
 function Auth() {
     const [theme, setTheme] = useState("🌆")
-    function ChangeTheme() {
-        const maindiv = document.querySelector(".main-component")
-        const form1 = document.querySelector("form")
-        setTheme(prevTheme => (prevTheme === "🌆" ? "🌄" : "🌆"))
-        if (theme === "🌆") {
-            maindiv.style.backgroundColor = "#090909b1"
-            notifydarksucces("🌆 | Вы успешно поменяли тему на чёрную!")
-        } else {
-            maindiv.style.backgroundColor = "#FFF"
-            notifysucces("🌄 | Вы успешно поменяли тему на белую!")
+   
+    
+        function ChangeTheme() {
+            const maindiv = document.querySelector(".main-component")
+            const form1 = document.querySelector("form")
+            setTheme(prevTheme => (prevTheme === "🌆" ? "🌄" : "🌆"))
+            if (theme === "🌆") {
+                maindiv.style.backgroundColor = "#090909b1"
+                notifydarksucces("🌆 | Вы успешно поменяли тему на чёрную!")
+            } else {
+                maindiv.style.backgroundColor = "#FFF"
+                notifysucces("🌄 | Вы успешно поменяли тему на белую!")
+            }
         }
-    }
     const notifysucces = (text) => toast.success(text, {
         position: "top-right",
         autoClose: 5000,
@@ -40,7 +42,7 @@ function Auth() {
     });
     function saveuserinfo(e) {
         e.preventDefault()
-        const elementsharam = /[!@#$']/
+        const elementsharam = /[!&?*#$']/
         const username = document.getElementById("username").value
         const email = document.getElementById("email").value
         const number = document.getElementById("number").value
@@ -49,11 +51,11 @@ function Auth() {
             notifydarksucces("В тексте запрещено использовать плохие буквы!");
         } else {
             notifysucces("Успешно!");
-            localStorage.setItem('Username', JSON.stringify(username))
-            localStorage.setItem('Email', JSON.stringify(email))
-            localStorage.setItem('Number', JSON.stringify(number))
+            localStorage.setItem('Username', username)
+            localStorage.setItem('Email', email)
+            localStorage.setItem('Number', number)
         }
-        
+
 
     }
     return (
@@ -70,7 +72,7 @@ function Auth() {
                         <Heading>Login/Auth</Heading>
                         <input type="text" id="username" placeholder="Username" />
                         <input type="email" id="email" placeholder="Email" />
-                        <input type="number" id="number" placeholder="Number Phone" />
+                        <input type="text" id="number" placeholder="Number Phone" />
                         <br />
                         <button className="btn-blue" onClick={saveuserinfo}>Отправить</button>
                     </form>
