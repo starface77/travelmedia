@@ -2,7 +2,7 @@
 
 ### `Travel Media` (Pero Travel)
 
-⚠️ Site Created In React!
+⚠️ This project does not violate or copy the original site; This is just a version that is created using the React library.
 # `INFO`
 
 ### `React` Framework or library?
