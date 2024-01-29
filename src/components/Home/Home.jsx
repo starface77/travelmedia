@@ -88,7 +88,7 @@ function Home() {
         <div className="main">
             <ToastContainer />
             <Navigation />
-          
+            
             <div className="text-info">
                 <p>ПУТЕШЕСТВУЙ</p>
                 <h2>PERO TRAVEL</h2>

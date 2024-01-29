@@ -17,23 +17,50 @@
         margin-top: 100px;
 
     }
+
     .user-icon {
         float: right;
         background-color: #FFF;
         box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.05);
-        width: 295px;
+        width: 320px;
         height: 518px;
         margin-right: 100px;
         margin-top: 100px;
         border-radius: 10px;
+
         .icon {
             margin-top: 50px;
-            margin-left: 50px;
+            margin-left: 30px;
             display: flex;
             align-items: center;
+            display: flex;
+
             p {
                 margin-left: 10px;
-               
+                display: flex;
+
+            }
+        }
+
+        .more {
+            display: block;
+            margin-left: 30px;
+            margin-top: 20px;
+
+            b {
+                margin-bottom: 10px;
+            }
+
+            .diver {
+                background-color: #ececec;
+            
+                width: 215px;
+                padding: 20px;
+                border-radius: 10px;
+            }
+            button {
+                margin-top: 50px;
+                margin-left: 10px;
             }
         }
     }
@@ -56,6 +83,7 @@
     .favorites-list {
         padding: 100px;
         width: 50%;
+
         .liked-travels {
             display: block;
 

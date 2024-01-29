@@ -23,7 +23,7 @@ function Navigation() {
                 <a href='/Personal'>
                     Личный кабинет
                 </a>
-                <a href='/' className="auth">
+                <a href='/auth' className="auth">
                     Регистрация
                 </a>
 

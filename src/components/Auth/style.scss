@@ -1,7 +1,18 @@
 .auth-wrapper {
     margin-top: 100px;
-    position: fixed;
+   
     margin-left: 300px;
+
+    video {
+        width: 100%;
+        height: 100vh;
+        margin: 0 auto;
+        object-fit: cover;
+        left: 0px;
+        margin-top: -100px;
+        position: absolute;
+        z-index: 0;
+    }
 
     .main-component {
         margin: 0 auto;
@@ -11,6 +22,8 @@
         background-color: #FFF;
         border-radius: 10px;
         padding: 100px;
+        z-index: 11;
+        position: fixed;
 
         .icon-theme {
             float: right;
@@ -31,6 +44,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            
         }
 
         form {

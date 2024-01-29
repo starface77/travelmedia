@@ -4,27 +4,49 @@ import "./style.scss"
 import Footer from "../Footer/Footer";
 import Navigation from "../Navigation/Nav";
 import usericon from "../../assets/user-profile.png"
+import { Head } from "react-axios";
+import { ToastContainer, toast } from "react-toastify";
 
 function Favorites() {
     const [travelList, setTravelList] = useState([]);
     const [counter, setCounter] = useState(0)
+    const notifysucces = (text) => toast.success(text, {
+        position: "top-right",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "light",
+    });
     useEffect(() => {
         const storedBookingDetails = JSON.parse(localStorage.getItem("bookingDetails"))
-    
+
         const currentDate = new Date();
         const day = currentDate.getDate();
         const month = currentDate.getMonth();
         const year = currentDate.getFullYear()
         const hours = currentDate.getHours()
         const formattedDate = `${year} : ${month}1 : ${day} : ${hours}`
-    
+
         localStorage.setItem('createdyear', formattedDate)
-    
+
         if (storedBookingDetails) {
             setTravelList([storedBookingDetails])
         }
-    }, []);
-    
+    }, [])
+
+    function DeleteInfo() {
+        localStorage.setItem("Username", "Удалено")
+        localStorage.setItem("Email", "Удалено")
+        localStorage.setItem("Number", "Удалено")
+        setTimeout(() => {
+            window.location.reload()
+        }, 3000)
+        notifysucces("Через 3 секунды все информации о вас будет удалены!")
+    }
+
 
     function funcchecker() {
         const votnu = document.querySelector('.izbaranno');
@@ -35,20 +57,34 @@ function Favorites() {
             votnu.innerHTML = storedItem
         }
     }
-
+    const username = localStorage.getItem("Username")
+    const email = localStorage.getItem("Email")
+    const number = localStorage.getItem("Number")
 
     return (
         <div className="favorites-component">
+            <ToastContainer />
             <div className="nav">
                 <Navigation />
-                <marquee >
-                    <span className="span1">INFO:</span><span >Можно бронировать тур только 1 раз!</span>
-                </marquee>
+
             </div>
             <div className="user-icon">
                 <div className="icon">
                     <img src={usericon} width="50px" height="50px" />
-                    <p>USER NAME</p>
+                    <p>Имя пользователя: {username}</p>
+                </div>
+                <br />
+                <div className="more">
+                    <div className="diver">
+                        <Heading size={2}>Почта/Email</Heading>
+                        <p>{email}</p>
+                    </div>
+                    <br />
+                    <div className="diver">
+                        <Heading size={2}>Номер/Number</Heading>
+                        <p>{number}</p>
+                    </div>
+                    <button className="btn-blue" onClick={DeleteInfo}>Удалить аккаунт</button>
                 </div>
             </div>
             <br />
@@ -86,6 +122,9 @@ function Favorites() {
                 </div>
             </div>
             <br />
+            <marquee >
+                <span className="span1">INFO:</span><span >Можно бронировать тур только 1 раз!</span>
+            </marquee>
             <Footer />
         </div>
     );

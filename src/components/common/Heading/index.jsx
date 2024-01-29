@@ -11,7 +11,6 @@ function Heading(props) {
             <b style={fontSize}>
                 {props.children}
             </b>
-           
         </div>
     );
 }
